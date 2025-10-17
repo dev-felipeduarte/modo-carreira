@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Título - Modo Carreira</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastrar Novo Título</h1>
+        <a href="../jogador/index.html">Voltar para a página do jogador</a>
+    </header>
+
+    <main>
+        <section id="cadastro-titulo">
+            <form id="form-titulo">
+                <div class="form-group">
+                    <label for="campeonato">Nome do Campeonato:</label>
+                    <input type="text" id="campeonato" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Time:</label>
+                    <input type="text" id="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="ano">Ano:</label>
+                    <input type="number" id="ano" placeholder="Ex: 2025" required>
+                </div>
+                <button type="submit">Salvar Título</button>
+            </form>
+        </section>
+
+        <section id="lista-titulos">
+            <h2>Títulos Conquistados</h2>
+            <div id="titulos-container">
+                </div>
+        </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

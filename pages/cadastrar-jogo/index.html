@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Jogo - Modo Carreira</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/dados.css">
+    <link rel="stylesheet" href="assets/css/formulario.css">
+
+    <!-- javascript -->
+     <script defer src="assets/js/dados.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Cadastrar Novo Jogo</h1>
+        <a href="../jogador/index.html">Voltar para a página do jogador</a>
+    </header>
+
+    <main>
+        <section id="cadastro">
+            <form id="form-jogo">
+                <div class="form-group">
+                    <label for="meu-time">Meu Time:</label>
+                    <input type="text" id="meu-time" required>
+                </div>
+                <div class="form-group">
+                    <label for="adversario">Adversário:</label>
+                    <input type="text" id="adversario" required>
+                </div>
+                <div class="form-group resultado">
+                    <label for="gols-meu-time">Resultado:</label>
+                    <input type="number" id="gols-meu-time" min="0" required placeholder="Gols Meus">
+                    <span>x</span>
+                    <input type="number" id="gols-adversario" min="0" required placeholder="Gols Adv">
+                </div>
+                 <div class="form-group">
+                    <label for="campeonato">Campeonato:</label>
+                    <input type="text" id="campeonato" required>
+                </div>
+                <hr>
+                <h3>Minha Performance Pessoal</h3>
+                <div class="form-group">
+                    <label for="gols-jogador">Gols Marcados:</label>
+                    <input type="number" id="gols-jogador" min="0" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="assistencias-jogador">Assistências:</label>
+                    <input type="number" id="assistencias-jogador" min="0" value="0">
+                </div>
+                <button type="submit">Salvar Jogo</button>
+            </form>
+        </section>
+
+        <section id="blog">
+            <h2>Histórico de Jogos Cadastrados</h2>
+            <div id="posts-container">
+                </div>
+        </section>
+    </main>
+</body>
+</html>

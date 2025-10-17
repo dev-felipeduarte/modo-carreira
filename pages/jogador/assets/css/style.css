@@ -1,0 +1,38 @@
+body {
+    margin: 0% 20%;
+    background-color: black;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0 6rem 0;
+}
+header .menu ul {
+    display: flex;
+    gap: 5rem;
+}
+
+header .menu li {
+    list-style: none;
+}
+
+header .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+.primeira-sessao .topico {
+    font-size: 2.8rem;
+    margin: 5rem 0;
+    color: white;
+}
+
+.primeira-sessao .texto {
+    font-size: 2.4rem;
+    text-align: justify;
+    color: white;
+}

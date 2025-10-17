@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.boxcard {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 25%;
+}
+
+.box .header {
+    font-size: 5rem;
+    text-transform: uppercase;
+    padding-block: 5rem;
+}
+
+.box .header, .saves{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* box save */
+.box a:hover {
+    background-color: darkgreen;
+}
+
+.box .saves img {
+    width: 8rem;
+}
+
+.box .saves li {
+    list-style: none;
+    padding-block: 1rem;
+}
+
+.box .saves a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    border: solid 1px lightgray;
+    border-radius: 1.5rem;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* imagens laterais */
+.boxcard .logo-ea-fmn, .coluna-fantasma {
+    width: 15rem;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.boxcard .logo-ea-fmn img{
+    width: 15rem;
+}

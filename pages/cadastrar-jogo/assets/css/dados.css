@@ -1,0 +1,61 @@
+/* Conteúdo para pages/cadastrar-jogo/assets/css/dados.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#posts-container .post {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin-top: 0;
+}
+
+.post .campeonato {
+    font-style: italic;
+    color: #666;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.post .resultado {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.resultado.vitoria { color: #28a745; }
+.resultado.derrota { color: #dc3545; }
+.resultado.empate { color: #6c757d; }
+
+* Estilo para o botão de excluir */
+.delete-btn {
+    background-color: #dc3545; /* Um tom de vermelho */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Espaço acima do botão */
+    float: right; /* Alinha o botão à direita do post */
+}
+
+.delete-btn:hover {
+    background-color: #c82333; /* Vermelho um pouco mais escuro */
+}

@@ -1,0 +1,86 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+th, td {
+    padding: 1.2rem 1.5rem;
+    border: 0.1rem solid #ddd;
+    text-align: left;
+    font-size: 1.8rem;
+    background-color: white;
+    color: black;
+}
+
+thead {
+    background-color: #f2f2f2;
+}
+
+th {
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+    background-color: #ddd;
+}
+
+th:hover {
+    background-color: #e9e9e9;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Adiciona um espaço abaixo de cada tabela para separá-las dos tópicos seguintes */
+#tabela-selecao-container,
+#tabela-competicoes-container,
+#tabela-stats-container,
+#tabela-stats-container {
+    margin-bottom: 2.5rem; /* Aumenta o espaço inferior */
+    color: white;
+    font-size: 2.4rem;
+}
+
+/* Estilo para o caption da tabela (título opcional) */
+table caption {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: left;
+    
+    color: white;
+}
+
+/* Adicione ao final do seu style.css */
+
+#lista-titulos-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2.5rem; /* Espaçamento inferior */
+    color: white;
+    font-size: 2.4rem;
+}
+
+.titulo-card {
+    background-color: #fff;
+    border: 0.1rem solid #e0e0e0;
+    border-radius: 0.8rem;
+    padding: 2rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0,0,0,0.05);
+    text-align: center;
+}
+
+.titulo-card h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.8rem;
+}
+
+.titulo-card p {
+    color: #666;
+    margin-bottom: 0;
+    font-size: 1.4rem;
+}
