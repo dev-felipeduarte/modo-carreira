@@ -1,6 +1,7 @@
 body {
     margin: 0% 20%;
     background-color: black;
+    line-height: 1.5;
 }
 
 header .menu {
@@ -36,3 +37,4 @@ header .menu a {
     text-align: justify;
     color: white;
 }
+
